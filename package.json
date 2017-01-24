@@ -2,7 +2,7 @@
   "name": "batch-calls",
   "version": "1.0.0",
   "description": "A simple utility to execute methods in batches.",
-  "main": "index.js",
+  "main": "tests.js",
   "scripts": {
     "test": "node tests.js"
   },

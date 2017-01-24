@@ -30,7 +30,7 @@ function call(nodeFunc, parameters, batchSize, partial, currentBatch, outputs) {
         let promises = [];
         let start = (currentBatch -1) * batchSize;
         let end = start+ batchSize;
-        for(let i=start; i <batchSize && i <parameters.length;i++) {
+        for(let i=start; i <start + batchSize && i <parameters.length;i++) {
             promises.push(Q.fcall(nodeFunc, ...parameters[i]));
         }
         let errors=[];
