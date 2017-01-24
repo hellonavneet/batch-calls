@@ -1,0 +1,15 @@
+{
+  "name": "batch-calls",
+  "version": "1.0.0",
+  "description": "A simple utility to execute methods in batches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "author": "ngcode@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1",
+    "testing": "^1.1.0"
+  }
+}
